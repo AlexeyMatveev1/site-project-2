@@ -3,14 +3,8 @@ a {
   color: white;
 }
 
-/* main {
-  background: url(/images/background.png) no-repeat;
-  height: 1000px;
-  max-width: 1680px;
-  margin: auto;
+main {
+  height: 2000px;
 }
 
-body {
-  max-width: 1680px;
-  margin: auto;
-} */
+
