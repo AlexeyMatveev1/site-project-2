@@ -7,6 +7,7 @@ footer {
     display: flex;
     justify-content: center;
     margin-top: 100px;
+    margin-left: 50px;
     font-size: 36px;
     font-family: "Raleway", sans-serif;
 }
@@ -15,11 +16,12 @@ footer {
     height: 50px;
     margin-top: 50px;
     margin-left: 675px;
+
 }
 
 .footer__btn {
     display: flex; 
-    width: 530px;
+    width: 600px;
     height: 50px;
     background-color: #E0BEA2;
     margin-top: 35px;
@@ -27,4 +29,120 @@ footer {
     font-size: 16px;
     color: white;
     font-family: "Raleway", sans-serif;
+}
+
+.footer__btn :active {
+    background-color: black;
+}
+
+
+.footer__btn p {
+    margin-left: 240px;
+    margin-top: 10px;
+}
+
+
+.email__style input {
+box-sizing: border-box;
+width: 600px;
+height: 60px;
+border: 0.5px solid #252525;
+}
+
+.text__under__btn {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 200;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+margin-top: 20px;
+margin-left: 50px;
+color: #252525;
+}
+
+
+.footer__main__text1 {
+    margin-top: 150px;
+    margin-left: 300px;
+    color: #252525;
+    font-size: 20px;
+    font-family: 'Raleway';
+
+}
+
+.footer__under__main1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 300px;
+    list-style-type: none;
+    gap: 10px;
+    font-family: 'Raleway';
+}
+
+.footer__main__text2 {
+    margin-left: 700px;
+    margin-top: -115.5px;
+    color: #252525;
+    font-size: 20px;
+    font-family: 'Raleway';
+}
+
+
+.footer__under__main2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 700px;
+    list-style-type: none;
+    gap: 10px;
+    font-family: 'Raleway';
+}
+
+.footer__main__text3 {
+    margin-left: 1100px;
+    margin-top: -145.5px;
+    color: #252525;
+    font-size: 20px;
+    font-family: 'Raleway';
+}
+
+.footer__under__main3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 1100px;
+    list-style-type: none;
+    gap: 10px;
+    font-family: 'Raleway';
+}
+
+.footer__main__text4 {
+    margin-left: 1500px;
+    margin-top: -145.5px;
+    color: #252525;
+    font-size: 20px;
+    font-family: 'Raleway';
+}
+
+.footer__under__main4 img {
+    margin-left: 1500px;
+    margin-top: 20px;
+
+}
+
+.footer__tg {
+    margin-left: 30px;
+    margin-top: -36.5px;
+}
+
+.footer__under__main4 li {
+    margin-left: 1500px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 50px;
+    font-family: 'Raleway';
+    margin-top: 10px;
 }
